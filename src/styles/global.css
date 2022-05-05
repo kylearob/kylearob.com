@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: alegreya-sans;
+        font-weight: 900;
+        src: url(@fontsource/alegreya-sans/files/alegreya-sans-cyrillic-900-normal.woff) format("woff");
+    }
+
+    @font-face {
+        font-family: alegreya-sans;
+        font-weight: 500;
+        src: url(@fontsource/alegreya-sans/files/alegreya-sans-cyrillic-500-normal.woff) format("woff");
+    }
+
+    /* @font-face {
+        font-family: alegreya-sans;
+        font-weight: 600;
+        src: url(@fontsource/alegreya-sans/files/alegreya-sans-cyrillic-600-normal.woff) format("woff");
+    }
+
+    @font-face {
+        font-family: alegreya-sans;
+        font-weight: 700;
+        src: url(@fontsource/alegreya-sans/files/alegreya-sans-cyrillic-700-normal.woff) format("woff");
+    } */
+
+    .shadow-around {
+        box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    }
+
+
+
+}
+
+@layer components {}
+
+@layer utilities {}
